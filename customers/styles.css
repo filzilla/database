@@ -1,0 +1,27 @@
+.customers{
+display: flex;
+-webkit-flex-wrap: wrap-reverse;
+-ms-flex-wrap: wrap-reverse;
+flex-wrap: wrap;
+margin: 50px;
+line-height: 4em;
+font-family: 'Raleway' ,'Helvetica';
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+
+}
+
+.img{
+  height: 900px;
+  width:900px;
+
+}
+
+.div{
+  flex-basis: 22%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
