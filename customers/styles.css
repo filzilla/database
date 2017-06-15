@@ -10,7 +10,7 @@ display: flex;
 -webkit-flex-wrap: wrap-reverse;
 -ms-flex-wrap: wrap-reverse;
 flex-wrap: wrap;
-margin: 50px;
+margin: 20px;
 line-height: 2em;
 font-family: 'Raleway' ,'Helvetica';
 text-align: center;
@@ -20,7 +20,7 @@ justify-content: flex-start;
 text-transform: capitalize;
 }
 .inside-container{
-  flex-basis: 22%;
+  flex-basis: 25%;
 }
 img{
 width: 180px;
@@ -30,9 +30,8 @@ height: 180px;
 .div{
   display: flex;
   height: 400px;
-  flex-basis: 23%;
-  margin-left: 1%;
-  margin-right: 1%;
+  flex-basis: 25%;
+
 }
 
 .email{
