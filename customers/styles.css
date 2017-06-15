@@ -1,27 +1,70 @@
+h2{
+
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
 .customers{
 display: flex;
 -webkit-flex-wrap: wrap-reverse;
 -ms-flex-wrap: wrap-reverse;
 flex-wrap: wrap;
 margin: 50px;
-line-height: 4em;
+line-height: 2em;
 font-family: 'Raleway' ,'Helvetica';
 text-align: center;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-
-
+text-transform: capitalize;
 }
-
-.img{
-  height: 900px;
-  width:900px;
-
+.inside-container{
+  flex-basis: 22%;
+}
+img{
+width: 180px;
+height: 180px;
 }
 
 .div{
-  flex-basis: 22%;
+  display: flex;
+  height: 400px;
+  flex-basis: 23%;
   margin-left: 1%;
   margin-right: 1%;
+}
+
+.email{
+  text-transform: none;
+  color: lightgray;
+  margin-bottom: 5%;
+  font-size: .30;
+
+
+}
+.name{
+  font-size: 1.1em;
+  border-bottom: 2px solid #20B020;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom:  5%;
+}
+.cell{
+  margin-bottom:5%;
+  font-weight: lighter;
+
+}
+.id{
+  color: transparent;
+   text-shadow: 0 0 10px rgba(32,176,32,0.75);
+   margin-bottom: 10%;
+}
+
+.location{
+  font-weight: lighter;
+}
+.location2{
+  font-weight: lighter;
+  margin-bottom: 5%;
 }
